@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #6c5ce7;
-    --secondary-color: #00cec9;
-    --accent1-color: #dfe6e9;
-    --accent2-color: #fd79a8;
-    --heading-font: 'Montserrat', sans-serif;
-    --body-font: 'Open Sans', sans-serif;
+    --primary-color: #195e19;
+    --secondary-color: #f4a261;
+    --accent1-color: #21404c;
+    --accent2: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 header {
     background-color: var(--primary-color);
@@ -17,7 +17,7 @@ box-sizing: border-box;
 }
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(#21404c);
 }
 header, main, footer {
     width: 840px;
@@ -42,6 +42,9 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
+.hero.article {
+    position: absolute;
+}
 h1 {
     position: absolute;
     top: 20px;
@@ -59,4 +62,3 @@ h1 {
     margin: 125px;
     box-shadow: #264653;
 }
- 
