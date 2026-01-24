@@ -62,3 +62,26 @@ h1 {
     margin: 125px;
     box-shadow: #264653;
 }
+.socialmedia{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.socialmedia img{
+    width: 35px;
+    height: auto;
+    transition:transform 0.3s ease, filter 0.3s ease;
+}
+.socialmedia img:hover{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+footer p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: :: 10px;
+}
