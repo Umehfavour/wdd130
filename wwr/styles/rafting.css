@@ -1,14 +1,12 @@
 :root {
     --primary-color: #195e19;
-    --secondary-color: #f4a261;
     --accent1-color: #21404c;
-    --accent2: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 header {
     background-color: var(--primary-color);
-    color: var#ffffff;
+    color: #ffffff;
 }
 * { 
    margin: 0;
@@ -17,7 +15,7 @@ box-sizing: border-box;
 }
 body {
     font-family: var(--body-font);
-    color: var(#21404c);
+    color: #21404c;
 }
 header, main, footer {
     width: 840px;
@@ -62,7 +60,7 @@ h1 {
     width: 125px;
     border: #e9c46a;
     margin: 125px;
-    box-shadow: #264653;
+    box-shadow: 5px 5px 10px #264653;
 }
 .socialmedia{
     display: flex;
